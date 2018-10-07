@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.sunm.memo.SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#40000000"
+        android:shadowDy="3"
+        android:shadowRadius="4"
+        android:textSize="12sp"
+        android:textColor="@color/navy"
+        android:letterSpacing="0.09"
+        android:layout_marginTop="5dp"
+        tools:text="RMAF" />
+    
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#40000000"
+        android:shadowDy="3"
+        android:shadowRadius="4"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:textColor="#e1f4ff"
+        tools:text="ADIS"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#40000000"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textSize="8sp"
+        android:textColor="#37474f"
+        android:layout_marginTop="15dp"
+        tools:text="Automated Data Integration System"
+        />sss
+
+</LinearLayout>
